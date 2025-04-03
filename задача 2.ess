@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h> // Не забудьте подключить библиотеку для работы со строками
+#include <string.h>
 
 int main() {
     // Создаем массив из 3 строк
