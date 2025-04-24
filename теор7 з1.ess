@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int max(int a, int b) {
+    // Сравниваем два числа
+    if (a > b) {
+        return a;
+    } else {
+        return b; 
+    }
+}
+
+int main() {
+    int num1 = 12;
+    int num2 = 25;
+
+    //функция max с аргументами num1 и num2
+    int maximum = max(num1, num2);
+
+    // Выводим результат
+    printf("Максимальное число из %d и %d равно %d\n", num1, num2, maximum);
+
+    return 0;
+}
+
